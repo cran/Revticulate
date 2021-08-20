@@ -6,8 +6,8 @@ knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
 #  initRev("/Users/april/software/rb")
 #  knitRev()
 
-## ---- eval=FALSE, include=FALSE-----------------------------------------------
-#  devtools::install_github("paleantology/Revticulate")
+## ---- eval=TRUE, include=FALSE------------------------------------------------
+devtools::install_github("paleantology/Revticulate")
 
 ## -----------------------------------------------------------------------------
 #  clearRev()
