@@ -1,7 +1,7 @@
 Package: Revticulate
 Type: Package
 Title: Interaction with "RevBayes" in R
-Version: 0.3.0
+Version: 1.0.0
 Authors@R: c(person(given = "Caleb",
                     family = "Charpentier",
                     role = c("aut", "cre"),
@@ -13,14 +13,15 @@ Authors@R: c(person(given = "Caleb",
 Description: Interaction with "RevBayes" via R. Objects created in "RevBayes" can be passed into the R environment, and many types can be converted into similar R objects. To download "RevBayes", go to <https://revbayes.github.io/download>.
 License: MIT + file LICENSE
 Depends: R (>= 2.10)
-Imports: ape, stringr, stringi, knitr, utils, comprehenr, phytools
-RoxygenNote: 7.1.1
-Suggests: markdown, rmarkdown, testthat, ggplot2, devtools
+Imports: ape, stringr, knitr, utils, comprehenr, jsonlite, usethis,
+        rstudioapi
+RoxygenNote: 7.1.2
+Suggests: markdown, rmarkdown, testthat, ggplot2, devtools, RevGadgets,
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2021-09-05 21:53:59 UTC; caleb
+Packaged: 2022-03-15 22:03:53 UTC; april
 Author: Caleb Charpentier [aut, cre],
   April Wright [aut]
 Maintainer: Caleb Charpentier <caleb.charpentier@selu.edu>
 Repository: CRAN
-Date/Publication: 2021-09-06 04:10:07 UTC
+Date/Publication: 2022-03-15 23:30:07 UTC
